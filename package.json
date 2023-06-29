@@ -1,12 +1,14 @@
 {
-  "name": "strapi-s3-cdn",
-  "version": "1.0.1",
+  "name": "strapi-provider-upload-s3-with-cdn",
+  "version": "1.0.2",
   "description": "AWS S3 provider for strapi upload",
   "keywords": [
     "upload",
     "aws",
     "s3",
-    "strapi"
+    "strapi",
+    "cdn",
+    "cloudfront"
   ],
   "directories": {
     "lib": "./lib"

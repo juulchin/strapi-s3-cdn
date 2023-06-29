@@ -1,4 +1,4 @@
-# strapi-s3-cdn
+# strapi-provider-upload-s3-with-cdn
 
 ## Configurations
 
@@ -11,7 +11,7 @@ Added cdn url to strapi-provider-upload-s3
 module.exports = ({ env }) => ({
   // ...
   upload: {
-    provider: 'aws-s3',
+    provider: 's3-with-cdn',
     providerOptions: {
       accessKeyId: env('AWS_ACCESS_KEY_ID'),
       secretAccessKey: env('AWS_ACCESS_SECRET'),
