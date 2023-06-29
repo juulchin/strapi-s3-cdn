@@ -1,8 +1,7 @@
 {
-  "name": "strapi-provider-upload-aws-s3",
+  "name": "strapi-s3-cdn",
   "version": "1.0.0",
   "description": "AWS S3 provider for strapi upload",
-  "homepage": "https://strapi.io",
   "keywords": [
     "upload",
     "aws",
@@ -22,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com:juulchin/strapi-s3-cdn.git"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
