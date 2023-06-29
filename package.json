@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-s3-with-cdn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AWS S3 provider for strapi upload",
   "keywords": [
     "upload",
