@@ -1,0 +1,35 @@
+{
+  "name": "strapi-provider-upload-aws-s3",
+  "version": "1.0.0",
+  "description": "AWS S3 provider for strapi upload",
+  "homepage": "https://strapi.io",
+  "keywords": [
+    "upload",
+    "aws",
+    "s3",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "2.892.0",
+    "lodash": "4.17.21"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
